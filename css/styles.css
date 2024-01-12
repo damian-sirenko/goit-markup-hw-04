@@ -376,27 +376,23 @@ img {
   max-width: 360px;
 }
 
-.portfolio-cover-text {
-  color: #f4f4fd;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
 .portfolio-cover-wrap {
   position: relative;
   overflow: hidden;
 }
 .portfolio-cover {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   position: absolute;
-  padding: 40px 32px 0 32px;
+  padding: 40px 32px;
   top: 0;
   height: 100%;
+  width: 100%;
   background: #4d5ae5;
   transform: translateY(100%);
-  transition-property: transform;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .item-info {
